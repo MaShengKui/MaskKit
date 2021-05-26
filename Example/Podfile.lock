@@ -1,0 +1,16 @@
+PODS:
+  - MaskKit (0.1.0)
+
+DEPENDENCIES:
+  - MaskKit (from `../`)
+
+EXTERNAL SOURCES:
+  MaskKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MaskKit: d371a111285ed266770a697492ef9e0db539a9c6
+
+PODFILE CHECKSUM: e989657ac38291cc3ed47e1d05d03473d24c2527
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module MaskKit {
+  umbrella header "MaskKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

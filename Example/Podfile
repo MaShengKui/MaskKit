@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MaskKit_Example' do
+  pod 'MaskKit', :path => '../'
+
+  target 'MaskKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
