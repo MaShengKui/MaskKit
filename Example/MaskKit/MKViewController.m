@@ -7,6 +7,7 @@
 //
 
 #import "MKViewController.h"
+#import <MaskKit/WBYPGradientView.h>
 
 @interface MKViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[WBYPGradientView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
