@@ -22,7 +22,7 @@ pod 'MaskKit'
 
 ## Author
 
-mashengkui, mashengkui01@58.com
+Mask, wymsk_2014@163.com
 
 ## License
 
