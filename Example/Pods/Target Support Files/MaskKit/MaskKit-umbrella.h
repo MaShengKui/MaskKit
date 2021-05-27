@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "WBYPGradientLabel.h"
-#import "WBYPGradientView.h"
+#import "MKGradientLabel.h"
+#import "MKGradientView.h"
 
 FOUNDATION_EXPORT double MaskKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char MaskKitVersionString[];

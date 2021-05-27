@@ -1,5 +1,7 @@
 PODS:
-  - MaskKit (0.1.0)
+  - MaskKit (0.1.0):
+    - MaskKit/UIKitComponents (= 0.1.0)
+  - MaskKit/UIKitComponents (0.1.0)
 
 DEPENDENCIES:
   - MaskKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MaskKit: d371a111285ed266770a697492ef9e0db539a9c6
+  MaskKit: 9e8eb9203210196f7f79b37d4dfe4f1ef5c7b1bf
 
 PODFILE CHECKSUM: e989657ac38291cc3ed47e1d05d03473d24c2527
 

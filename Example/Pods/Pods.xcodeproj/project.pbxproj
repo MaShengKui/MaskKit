@@ -7,31 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024B763C309207FEEF64CF0CED7B6AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		04D267A3775E6BC69E430831F2C7EAE7 /* MaskKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159AE2DF690A440C1455D98457E29D52 /* MaskKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14B942B7B115CF4DE6B26712B11E2050 /* WBYPGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F43ACE7804835E238FBA7289A205E6 /* WBYPGradientLabel.m */; };
+		05C1C84845178AC7B151DF0713316E4E /* MKGradientLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 057E8F405F36585F1916342AA209B28C /* MKGradientLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15197AC592338FD6879DB8DE40D6ADF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1CC9A9A1EBD878DE1A153930DD5F5EA5 /* Pods-MaskKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B932ED8469FC741AA06FFB3E48E37 /* Pods-MaskKit_Example-dummy.m */; };
-		2B5FA32C060996B576A270922334A7F2 /* WBYPGradientLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1832BDD00EEF2088D66E504E5FBF8151 /* WBYPGradientLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8EDCF4BE6AD63D596C390095691C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3FDF17F0DAB9BF6D513E71A7DE4513DE /* Pods-MaskKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E1926DCC21BA5026C03FDAE413B6AF /* Pods-MaskKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F491AB7D13EA0AB086E7BB89D8997E /* MaskKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBF842ADFAC9FE9A60EEDC62E061319 /* MaskKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DA13462252267B67E3F9E4E85FC6739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5B71EC49CC9B3B405440FFA149E9C663 /* MaskKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16259526571B7FE504D8E6E867074342 /* MaskKit-dummy.m */; };
 		6293C130BC46293DB5A52E98F012E180 /* Pods-MaskKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A9C2E21355BC4C9C5E9D73EC57715 /* Pods-MaskKit_Tests-dummy.m */; };
-		71FCC585FEC7BEAFEE0FC8186D443DCB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 83774E0CD92B00E3E712D13F7F26BF3D /* ReplaceMe.m */; };
+		6D01638D2D5FAE4AC0CD384C68C11267 /* MKGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D6EE7A28243A81C992B17791561A96 /* MKGradientLabel.m */; };
 		80F5FB64F67D4101B451FEB7B0C62510 /* Pods-MaskKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3863193AED8DE3D0D4D8926D096A92 /* Pods-MaskKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8988D8C5760E98397327E46FEE52FA54 /* WBYPGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F8787BF84195B09E50345650F581A4 /* WBYPGradientView.m */; };
-		EC01AC7A7AAF6203AEB932C0D41215AB /* WBYPGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E05655FDF7D99E7922EF543727E9393 /* WBYPGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F826476D77A50705BDC338CBCDE44B /* MKGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0AE84426731CBD7428F1EDFC498BC0 /* MKGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C239DB17158396E0D762A9B711BA3E89 /* MKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1FD823694CFE90932DDB459232967 /* MKGradientView.m */; };
+		FEB162BE6ECF0146CBAAA9397B4E7A09 /* MaskKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA1713A30CB49DEAD521B4EEB1B071 /* MaskKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94C808BE2B1CCAC0AF059758BC50C21E /* PBXContainerItemProxy */ = {
+		3F63AABE9E4E1E6D19179D335C7618AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A9CDF6567D0B67C94475E04E295E543;
 			remoteInfo = "Pods-MaskKit_Example";
 		};
-		C6D063051EDE7E81766CC12D24751C7D /* PBXContainerItemProxy */ = {
+		6635F4E39B7A8B121F2ACCBE728713CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,42 +41,41 @@
 
 /* Begin PBXFileReference section */
 		003CA6E75BEBF4556D1204FC763B0BAA /* Pods-MaskKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		01BEDA00E8A0295EC490F23ED3D38254 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0A6082637406B11DCA840F6E98695262 /* MaskKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaskKit-Info.plist"; sourceTree = "<group>"; };
+		018E05C2092836D9F130BB1DF3B7A4E8 /* MaskKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaskKit-prefix.pch"; sourceTree = "<group>"; };
+		057E8F405F36585F1916342AA209B28C /* MKGradientLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKGradientLabel.h; path = MaskKit/Classes/UIKitComponents/GradientView/MKGradientLabel.h; sourceTree = "<group>"; };
 		0CCA7FB1E22B53B25AF852814EA2185A /* Pods-MaskKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaskKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E05655FDF7D99E7922EF543727E9393 /* WBYPGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBYPGradientView.h; sourceTree = "<group>"; };
+		0FFA1713A30CB49DEAD521B4EEB1B071 /* MaskKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaskKit-dummy.m"; sourceTree = "<group>"; };
 		10510B149B20C91C43FE3BE2170F6BC4 /* Pods-MaskKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1115643ED4C3129C53DB575C648105A7 /* MaskKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaskKit.framework; path = MaskKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		112808C15D6D21DA52DA61AC9FF3C6F4 /* Pods-MaskKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaskKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		159AE2DF690A440C1455D98457E29D52 /* MaskKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaskKit-umbrella.h"; sourceTree = "<group>"; };
-		16259526571B7FE504D8E6E867074342 /* MaskKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaskKit-dummy.m"; sourceTree = "<group>"; };
-		1832BDD00EEF2088D66E504E5FBF8151 /* WBYPGradientLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WBYPGradientLabel.h; sourceTree = "<group>"; };
+		1DFE0AB69FE93BB9A8E4C04B7E0D9D18 /* MaskKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaskKit.debug.xcconfig; sourceTree = "<group>"; };
 		1E3863193AED8DE3D0D4D8926D096A92 /* Pods-MaskKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaskKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		225A9C2E21355BC4C9C5E9D73EC57715 /* Pods-MaskKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaskKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		23DDF263E83FFD6F78D87A13632FA008 /* MaskKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaskKit-prefix.pch"; sourceTree = "<group>"; };
 		274B932ED8469FC741AA06FFB3E48E37 /* Pods-MaskKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaskKit_Example-dummy.m"; sourceTree = "<group>"; };
-		2BA9CBF1B907F9E2FD9123B087BAC4D0 /* MaskKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MaskKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27D6EE7A28243A81C992B17791561A96 /* MKGradientLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKGradientLabel.m; path = MaskKit/Classes/UIKitComponents/GradientView/MKGradientLabel.m; sourceTree = "<group>"; };
+		281143D68B6D1957D8B80DC6D38F9E7B /* MaskKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaskKit.release.xcconfig; sourceTree = "<group>"; };
+		2BBF842ADFAC9FE9A60EEDC62E061319 /* MaskKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaskKit-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37F8787BF84195B09E50345650F581A4 /* WBYPGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WBYPGradientView.m; sourceTree = "<group>"; };
 		37FC90935873085939281C6D43173553 /* Pods-MaskKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F850B850E81857FF45E543AC827B126 /* MaskKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaskKit-Info.plist"; sourceTree = "<group>"; };
+		4FEB492B4259B64875B963C5D67CE0B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		57ACE344EE85076D2AB41A42B97E007A /* Pods-MaskKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskKit_Example-Info.plist"; sourceTree = "<group>"; };
 		5E226E4C115D983CFC3D50D2C02E6AE7 /* Pods-MaskKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaskKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6B98E61A4366E61DAEDC023EC93193F8 /* Pods-MaskKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaskKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BF1FD823694CFE90932DDB459232967 /* MKGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKGradientView.m; path = MaskKit/Classes/UIKitComponents/GradientView/MKGradientView.m; sourceTree = "<group>"; };
 		711C6C0C73DB26B39F658AD0C0269AB1 /* Pods-MaskKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7407BC323657756A59E0B21E53D677FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		76E1926DCC21BA5026C03FDAE413B6AF /* Pods-MaskKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaskKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		83774E0CD92B00E3E712D13F7F26BF3D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MaskKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		856318AAF79A0B3CE55936A5AACF38F2 /* MaskKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaskKit.release.xcconfig; sourceTree = "<group>"; };
-		86321332ABE0ABF3298194D13CC3614E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		91F707A5026F5C3CAB7350F9558C6CC8 /* MaskKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaskKit.modulemap; sourceTree = "<group>"; };
 		9930C6E84BBA33D97F60231A60112F18 /* Pods-MaskKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaskKit_Example.modulemap"; sourceTree = "<group>"; };
 		99FBE76AC656A19F84D0CF4D93342794 /* Pods_MaskKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaskKit_Tests.framework; path = "Pods-MaskKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD505C0B65BC152ACEFA79447F7DD64 /* Pods-MaskKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1F43ACE7804835E238FBA7289A205E6 /* WBYPGradientLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WBYPGradientLabel.m; sourceTree = "<group>"; };
+		9FEF922625A873BCC8BC9A56B991CFE7 /* MaskKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaskKit.modulemap; sourceTree = "<group>"; };
+		BD0AE84426731CBD7428F1EDFC498BC0 /* MKGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKGradientView.h; path = MaskKit/Classes/UIKitComponents/GradientView/MKGradientView.h; sourceTree = "<group>"; };
 		CBBA8203F435AEC073F96589DBE6ABAD /* Pods-MaskKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaskKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAEB72608EF9CFFCC1093D6713DFD1E8 /* Pods-MaskKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaskKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF8F2507E92BC1FBA8BFAD3FDB3279FA /* MaskKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MaskKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8ABFA7B27196BDEC8460F6C333064A0 /* Pods_MaskKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaskKit_Example.framework; path = "Pods-MaskKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F963406EE3FF6E6F773BA60947E89ACA /* MaskKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaskKit.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,39 +95,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0C7E0F5B87A47B593C3A76B8F6C0E64 /* Frameworks */ = {
+		91F0E04F93EFE9B6E94DF6BFD040431D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024B763C309207FEEF64CF0CED7B6AE9 /* Foundation.framework in Frameworks */,
+				1D8EDCF4BE6AD63D596C390095691C53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08A1D3F16FE115C1546DC998598744DB /* MaskKit */ = {
+		00C5B1CECF8C4AFB01E51CCC0319102A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83774E0CD92B00E3E712D13F7F26BF3D /* ReplaceMe.m */,
-				2DB510C10E39050796DC46F985DF937A /* GradientView */,
-				F124606F44E948CD0FE8A0A2D372D540 /* Pod */,
-				7CD65354CBD1A331410FC4149E997B5A /* Support Files */,
+				9FEF922625A873BCC8BC9A56B991CFE7 /* MaskKit.modulemap */,
+				0FFA1713A30CB49DEAD521B4EEB1B071 /* MaskKit-dummy.m */,
+				4F850B850E81857FF45E543AC827B126 /* MaskKit-Info.plist */,
+				018E05C2092836D9F130BB1DF3B7A4E8 /* MaskKit-prefix.pch */,
+				2BBF842ADFAC9FE9A60EEDC62E061319 /* MaskKit-umbrella.h */,
+				1DFE0AB69FE93BB9A8E4C04B7E0D9D18 /* MaskKit.debug.xcconfig */,
+				281143D68B6D1957D8B80DC6D38F9E7B /* MaskKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MaskKit";
+			sourceTree = "<group>";
+		};
+		012B5E5779F614A661665B821EABC050 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DF62FCCEEB6A3FC0E60610D344D8B93 /* MaskKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DF62FCCEEB6A3FC0E60610D344D8B93 /* MaskKit */ = {
+			isa = PBXGroup;
+			children = (
+				EFF854165112BBE529B80A3F842B214B /* Pod */,
+				00C5B1CECF8C4AFB01E51CCC0319102A /* Support Files */,
+				D516601100664F588ACF6A91AAF44005 /* UIKitComponents */,
 			);
 			name = MaskKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		2DB510C10E39050796DC46F985DF937A /* GradientView */ = {
-			isa = PBXGroup;
-			children = (
-				1832BDD00EEF2088D66E504E5FBF8151 /* WBYPGradientLabel.h */,
-				B1F43ACE7804835E238FBA7289A205E6 /* WBYPGradientLabel.m */,
-				0E05655FDF7D99E7922EF543727E9393 /* WBYPGradientView.h */,
-				37F8787BF84195B09E50345650F581A4 /* WBYPGradientView.m */,
-			);
-			name = GradientView;
-			path = MaskKit/Classes/GradientView;
 			sourceTree = "<group>";
 		};
 		6CED5F67A49A75E487F5DAC8F93BC408 /* Products */ = {
@@ -140,21 +148,6 @@
 				99FBE76AC656A19F84D0CF4D93342794 /* Pods_MaskKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7CD65354CBD1A331410FC4149E997B5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				91F707A5026F5C3CAB7350F9558C6CC8 /* MaskKit.modulemap */,
-				16259526571B7FE504D8E6E867074342 /* MaskKit-dummy.m */,
-				0A6082637406B11DCA840F6E98695262 /* MaskKit-Info.plist */,
-				23DDF263E83FFD6F78D87A13632FA008 /* MaskKit-prefix.pch */,
-				159AE2DF690A440C1455D98457E29D52 /* MaskKit-umbrella.h */,
-				F963406EE3FF6E6F773BA60947E89ACA /* MaskKit.debug.xcconfig */,
-				856318AAF79A0B3CE55936A5AACF38F2 /* MaskKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MaskKit";
 			sourceTree = "<group>";
 		};
 		801725AF21354AE8CD03F65AC79C59ED /* Pods-MaskKit_Tests */ = {
@@ -202,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD1ADF0E565BBA169064EA26C352933D /* Development Pods */,
+				012B5E5779F614A661665B821EABC050 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6CED5F67A49A75E487F5DAC8F93BC408 /* Products */,
 				CF6C448B0E94D1D1AADEC25B104C60B4 /* Targets Support Files */,
@@ -226,22 +219,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F124606F44E948CD0FE8A0A2D372D540 /* Pod */ = {
+		D516601100664F588ACF6A91AAF44005 /* UIKitComponents */ = {
 			isa = PBXGroup;
 			children = (
-				86321332ABE0ABF3298194D13CC3614E /* LICENSE */,
-				2BA9CBF1B907F9E2FD9123B087BAC4D0 /* MaskKit.podspec */,
-				01BEDA00E8A0295EC490F23ED3D38254 /* README.md */,
+				057E8F405F36585F1916342AA209B28C /* MKGradientLabel.h */,
+				27D6EE7A28243A81C992B17791561A96 /* MKGradientLabel.m */,
+				BD0AE84426731CBD7428F1EDFC498BC0 /* MKGradientView.h */,
+				6BF1FD823694CFE90932DDB459232967 /* MKGradientView.m */,
 			);
-			name = Pod;
+			name = UIKitComponents;
 			sourceTree = "<group>";
 		};
-		FD1ADF0E565BBA169064EA26C352933D /* Development Pods */ = {
+		EFF854165112BBE529B80A3F842B214B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				08A1D3F16FE115C1546DC998598744DB /* MaskKit */,
+				7407BC323657756A59E0B21E53D677FA /* LICENSE */,
+				DF8F2507E92BC1FBA8BFAD3FDB3279FA /* MaskKit.podspec */,
+				4FEB492B4259B64875B963C5D67CE0B8 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,16 +251,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93C08F9DC885A06052A4ABF520B254BB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04D267A3775E6BC69E430831F2C7EAE7 /* MaskKit-umbrella.h in Headers */,
-				2B5FA32C060996B576A270922334A7F2 /* WBYPGradientLabel.h in Headers */,
-				EC01AC7A7AAF6203AEB932C0D41215AB /* WBYPGradientView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A062CF41C55BBD815B6900860C1960D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,17 +259,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD08A0C1CE62591E3B8EEC3E4B0664A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F491AB7D13EA0AB086E7BB89D8997E /* MaskKit-umbrella.h in Headers */,
+				05C1C84845178AC7B151DF0713316E4E /* MKGradientLabel.h in Headers */,
+				81F826476D77A50705BDC338CBCDE44B /* MKGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0D15F78DD192C87CC3E6C9E1FAA51F8F /* MaskKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A9208D0193B2BD87F38B144E9FF7A5 /* Build configuration list for PBXNativeTarget "MaskKit" */;
+			buildConfigurationList = F4B0B3ABBED7B7561E31288DC81E616D /* Build configuration list for PBXNativeTarget "MaskKit" */;
 			buildPhases = (
-				93C08F9DC885A06052A4ABF520B254BB /* Headers */,
-				BA7357DE2A4B31038842850153939F0F /* Sources */,
-				A0C7E0F5B87A47B593C3A76B8F6C0E64 /* Frameworks */,
-				C3DE8875421750C714FEEB4B6A53EC5A /* Resources */,
+				DD08A0C1CE62591E3B8EEC3E4B0664A6 /* Headers */,
+				E3005A77F9B44E2101A3100718129E7E /* Sources */,
+				91F0E04F93EFE9B6E94DF6BFD040431D /* Frameworks */,
+				F65848E7217BD4F58B33DB3FA00AE4DA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F9661878CDCF2F20189D28085E573F02 /* PBXTargetDependency */,
+				9AB0DEC5F75F246D34DDF324D1BEDDBA /* PBXTargetDependency */,
 			);
 			name = "Pods-MaskKit_Tests";
 			productName = "Pods-MaskKit_Tests";
@@ -325,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7EE75B8B840B4117F56C2A8A8C4CD786 /* PBXTargetDependency */,
+				5E04660B6EEBCB0B9984840563ADDFD3 /* PBXTargetDependency */,
 			);
 			name = "Pods-MaskKit_Example";
 			productName = "Pods-MaskKit_Example";
@@ -369,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3DE8875421750C714FEEB4B6A53EC5A /* Resources */ = {
+		F65848E7217BD4F58B33DB3FA00AE4DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,22 +382,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA7357DE2A4B31038842850153939F0F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B71EC49CC9B3B405440FFA149E9C663 /* MaskKit-dummy.m in Sources */,
-				71FCC585FEC7BEAFEE0FC8186D443DCB /* ReplaceMe.m in Sources */,
-				14B942B7B115CF4DE6B26712B11E2050 /* WBYPGradientLabel.m in Sources */,
-				8988D8C5760E98397327E46FEE52FA54 /* WBYPGradientView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D91AEF025F359080AE311EC12A2DE0E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6293C130BC46293DB5A52E98F012E180 /* Pods-MaskKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3005A77F9B44E2101A3100718129E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB162BE6ECF0146CBAAA9397B4E7A09 /* MaskKit-dummy.m in Sources */,
+				6D01638D2D5FAE4AC0CD384C68C11267 /* MKGradientLabel.m in Sources */,
+				C239DB17158396E0D762A9B711BA3E89 /* MKGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,21 +411,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7EE75B8B840B4117F56C2A8A8C4CD786 /* PBXTargetDependency */ = {
+		5E04660B6EEBCB0B9984840563ADDFD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MaskKit;
 			target = 0D15F78DD192C87CC3E6C9E1FAA51F8F /* MaskKit */;
-			targetProxy = C6D063051EDE7E81766CC12D24751C7D /* PBXContainerItemProxy */;
+			targetProxy = 6635F4E39B7A8B121F2ACCBE728713CB /* PBXContainerItemProxy */;
 		};
-		F9661878CDCF2F20189D28085E573F02 /* PBXTargetDependency */ = {
+		9AB0DEC5F75F246D34DDF324D1BEDDBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MaskKit_Example";
 			target = 9A9CDF6567D0B67C94475E04E295E543 /* Pods-MaskKit_Example */;
-			targetProxy = 94C808BE2B1CCAC0AF059758BC50C21E /* PBXContainerItemProxy */;
+			targetProxy = 3F63AABE9E4E1E6D19179D335C7618AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1B7AAE7DCB96B3587579CFC02FF5BBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281143D68B6D1957D8B80DC6D38F9E7B /* MaskKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaskKit/MaskKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaskKit/MaskKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaskKit/MaskKit.modulemap";
+				PRODUCT_MODULE_NAME = MaskKit;
+				PRODUCT_NAME = MaskKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1E4FA35202E54788DA10807676FD9AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37FC90935873085939281C6D43173553 /* Pods-MaskKit_Tests.release.xcconfig */;
@@ -656,9 +683,9 @@
 			};
 			name = Debug;
 		};
-		AE2C0A1D82F66B14617DDF647FCA200C /* Release */ = {
+		AA03CFE6EABA1C814F604165A76A8A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856318AAF79A0B3CE55936A5AACF38F2 /* MaskKit.release.xcconfig */;
+			baseConfigurationReference = 1DFE0AB69FE93BB9A8E4C04B7E0D9D18 /* MaskKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -682,11 +709,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C0A862346AEDDB3578BAA6DBC583740B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -715,37 +741,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F0EF78551E344B90699C23D96ACD9FBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F963406EE3FF6E6F773BA60947E89ACA /* MaskKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MaskKit/MaskKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaskKit/MaskKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaskKit/MaskKit.modulemap";
-				PRODUCT_MODULE_NAME = MaskKit;
-				PRODUCT_NAME = MaskKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -782,11 +777,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A9208D0193B2BD87F38B144E9FF7A5 /* Build configuration list for PBXNativeTarget "MaskKit" */ = {
+		F4B0B3ABBED7B7561E31288DC81E616D /* Build configuration list for PBXNativeTarget "MaskKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0EF78551E344B90699C23D96ACD9FBD /* Debug */,
-				AE2C0A1D82F66B14617DDF647FCA200C /* Release */,
+				AA03CFE6EABA1C814F604165A76A8A4B /* Debug */,
+				1B7AAE7DCB96B3587579CFC02FF5BBC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

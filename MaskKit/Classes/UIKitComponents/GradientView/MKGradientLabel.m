@@ -1,20 +1,20 @@
 //
-//  WBYPGradientLabel.m
-//  YellowPage
+//  MKGradientLabel.m
+//  MaskKit
 //
 //  Created by Mask on 2020/8/8.
 //
 
-#import "WBYPGradientLabel.h"
+#import "MKGradientLabel.h"
 
-@interface WBYPGradientLabel ()
+@interface MKGradientLabel ()
 
 /// 渐变背景
-@property (nonatomic,strong) WBYPGradientView *gradientView;
+@property (nonatomic,strong) MKGradientView *gradientView;
 
 @end
 
-@implementation WBYPGradientLabel
+@implementation MKGradientLabel
 
 - (void)layoutSubviews {
     [super layoutSubviews];
@@ -31,14 +31,14 @@
 }
 
 #pragma mark - 设置渐变参数，提供常用渐变方向
-- (void)configWithColors:(NSArray<UIColor *> *)colors direction:(WBYPGradientDirection)direction {
+- (void)configWithColors:(NSArray<UIColor *> *)colors direction:(MKGradientDirection)direction {
     [self.gradientView configWithColors:colors direction:direction];
 }
 
 #pragma mark - 懒加载
-- (WBYPGradientView *)gradientView {
+- (MKGradientView *)gradientView {
     if (!_gradientView) {
-        _gradientView = [[WBYPGradientView alloc] init];
+        _gradientView = [[MKGradientView alloc] init];
     }
     return _gradientView;
 }

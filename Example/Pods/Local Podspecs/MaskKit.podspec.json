@@ -1,22 +1,25 @@
 {
   "name": "MaskKit",
   "version": "0.1.0",
-  "summary": "A short description of MaskKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mashengkui/MaskKit",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "MaskKit, A common iOS develop kit.",
+  "description": "A common iOS develop kit, A common iOS develop kit.",
+  "homepage": "https://github.com/MaShengKui/MaskKit",
+  "license": "MIT",
   "authors": {
-    "mashengkui": "mashengkui01@58.com"
-  },
-  "source": {
-    "git": "https://github.com/mashengkui/MaskKit.git",
-    "tag": "0.1.0"
+    "mask": "wymsk_2014@163.com"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MaskKit/Classes/**/*"
+  "source": {
+    "git": "https://github.com/MaShengKui/MaskKit.git",
+    "tag": "0.1.0"
+  },
+  "subspecs": [
+    {
+      "name": "UIKitComponents",
+      "source_files": "MaskKit/Classes/UIKitComponents/**/*",
+      "requires_arc": true
+    }
+  ]
 }

@@ -1,13 +1,13 @@
 //
-//  WBYPGradientView.m
-//  YellowPage
+//  MKGradientView.m
+//  MaskKit
 //
 //  Created by Mask on 2020/8/8.
 //
 
-#import "WBYPGradientView.h"
+#import "MKGradientView.h"
 
-@interface WBYPGradientView ()
+@interface MKGradientView ()
 
 /// 常用渐变方向集合
 @property (nonatomic,strong) NSDictionary <NSNumber *, NSArray <NSValue *> *> *pointsDict;
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation WBYPGradientView
+@implementation MKGradientView
 
 #pragma mark - override
 + (Class)layerClass {
@@ -34,7 +34,7 @@
 }
 
 #pragma mark - 设置渐变参数，提供常用渐变方向
-- (void)configWithColors:(NSArray<UIColor *> *)colors direction:(WBYPGradientDirection)direction {
+- (void)configWithColors:(NSArray<UIColor *> *)colors direction:(MKGradientDirection)direction {
     NSArray <NSValue *> *pointArray = self.pointsDict[@(direction)];
     [self configWithColors:colors locations:nil startPoint:[[pointArray firstObject] CGPointValue] endPoint:[[pointArray lastObject] CGPointValue]];
 }
@@ -86,14 +86,14 @@
 #pragma mark - 常用渐变方向集合
 - (NSDictionary <NSNumber *, NSArray <NSValue *> *> *)pointsDict {
     return @{
-        @(WBYPGradientDirectionLeftToRight) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(1, 0)]],
-        @(WBYPGradientDirectionRightToLeft) : @[[NSValue valueWithCGPoint:CGPointMake(1, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
-        @(WBYPGradientDirectionBottomToTop) : @[[NSValue valueWithCGPoint:CGPointMake(0, 1)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
-        @(WBYPGradientDirectionTopToBottom) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 1)]],
-        @(WBYPGradientDirectionLeftBottomToRightTop) : @[[NSValue valueWithCGPoint:CGPointMake(0, 1)], [NSValue valueWithCGPoint:CGPointMake(1, 0)]],
-        @(WBYPGradientDirectionLeftTopToRightBottom) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(1, 1)]],
-        @(WBYPGradientDirectionRightBottomToLeftTop) : @[[NSValue valueWithCGPoint:CGPointMake(1, 1)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
-        @(WBYPGradientDirectionRightTopToLeftBottom) : @[[NSValue valueWithCGPoint:CGPointMake(1, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 1)]]
+        @(MKGradientDirectionLeftToRight) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(1, 0)]],
+        @(MKGradientDirectionRightToLeft) : @[[NSValue valueWithCGPoint:CGPointMake(1, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
+        @(MKGradientDirectionBottomToTop) : @[[NSValue valueWithCGPoint:CGPointMake(0, 1)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
+        @(MKGradientDirectionTopToBottom) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 1)]],
+        @(MKGradientDirectionLeftBottomToRightTop) : @[[NSValue valueWithCGPoint:CGPointMake(0, 1)], [NSValue valueWithCGPoint:CGPointMake(1, 0)]],
+        @(MKGradientDirectionLeftTopToRightBottom) : @[[NSValue valueWithCGPoint:CGPointMake(0, 0)], [NSValue valueWithCGPoint:CGPointMake(1, 1)]],
+        @(MKGradientDirectionRightBottomToLeftTop) : @[[NSValue valueWithCGPoint:CGPointMake(1, 1)], [NSValue valueWithCGPoint:CGPointMake(0, 0)]],
+        @(MKGradientDirectionRightTopToLeftBottom) : @[[NSValue valueWithCGPoint:CGPointMake(1, 0)], [NSValue valueWithCGPoint:CGPointMake(0, 1)]]
     };
 }
 
