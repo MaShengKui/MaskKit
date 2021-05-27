@@ -27,4 +27,3 @@ Mask, wymsk_2014@163.com
 ## License
 
 MaskKit is available under the MIT license. See the LICENSE file for more info.
->>>>>>> origin/master
